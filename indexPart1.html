@@ -67,7 +67,7 @@
         let headerDivString = headerDiv.innerHTML;
         headerDivStrings.forEach((data) => {
             if (headerDivStrings.indexOf(data) == 0) {
-                headerDivString += '<li><a href="#index">' + data + '<a></li>'
+                headerDivString += '<li><a href="index">' + data + '<a></li>'
             } else {
                 console.log(headerDivStrings.indexOf(data))
                 headerDivString += '<li><a href="indexPart' + headerDivStrings.indexOf(data) + '">' + data + '<a></li>'
